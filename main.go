@@ -108,7 +108,7 @@ type NotificationHandler struct {
 
 func NewLegacyHandler(conn *dbus.Connection, application string) *NotificationHandler {
 	return &NotificationHandler{
-		dbusObject:  conn.Object(dbusName, "/com/ubuntu/Postal/nanuc_2Egontfy"),
+		dbusObject:  conn.Object(dbusName, "/com/ubuntu/Postal/nanuc_2egontfy"),
 		application: application,
 	}
 }
