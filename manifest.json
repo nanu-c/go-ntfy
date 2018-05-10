@@ -1,0 +1,16 @@
+{
+    "name": "nanuc.gontfy",
+    "title": "Go Notification testapp",
+    "description": "description of net-info",
+    "architecture": "armhf",
+    "framework" : "ubuntu-sdk-15.04",
+    "hooks": {
+        "gontfy": {
+            "apparmor": "gontfy.apparmor",
+            "desktop": "gontfy.desktop",
+            "push-helper": "gontfy-helper.json"
+        }
+    },
+    "version": "1.00",
+    "maintainer": "Aaron Kimmig <aaron@nanu-c.org>"
+}

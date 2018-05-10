@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=go-ntfy
+Exec=gontfy
+Icon=gotestapp.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
